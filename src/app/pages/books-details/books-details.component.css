@@ -1,4 +1,14 @@
-.section-book{
+.section-book-css{
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    width: 70%;
+}
+
+.table-td-description-css{
+    width: 150px;
+}
+
+.table-td-content-css{
+    width: 700px;
 }
