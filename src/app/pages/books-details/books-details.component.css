@@ -1,8 +1,8 @@
 .section-book-css{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
-    width: 70%;
+    width: 80%;
 }
 
 .table-td-description-css{

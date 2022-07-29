@@ -34,27 +34,8 @@ getBookDetails(isbn13:number):Observable<Bookdetails>{
   return this.httpClient.get<Bookdetails>(`${this.apiURL}/books/${isbn13}`);
 }
 
-
-//
-//
-////salva usuario no banco de dados CREATE
-//createUserServe(userCreate:Users):Observable<Users>{
-//  return this.httpClient.post<Users>(this.apiURL,userCreate, this.httpOptions)
-//}
-//
-//// Exclui o usuário do banco DELETE
-//
-//deleteUserServe(id:number):Observable<Users> {
-//  return this.httpClient.delete<Users>(`${this.apiURL}/id/${id}`)
-//}
-//
-//
-////atualiza o usuário no banco UPDATE
-//
-//updateUser(id:string, user:Users):Observable<Users>{
-//  return this.httpClient.put<Users>(`${this.apiURL}/id/${id}`,user,this.httpOptions);
-//}
-//
-////lista usuário único
+searchBooksFromServer(query:string):Observable<Books>{
+   return this.httpClient.get<Books>(`${this.apiURL}/search/${query}`);
+}
 
 }

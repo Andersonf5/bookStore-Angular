@@ -1,7 +1,11 @@
-<div >
-    <h1 class="card-title text-center">Book details</h1>
-   
-            <div class="section-book-css">
+<div class="d-flex flex-column align-items-center" >
+       
+    <div>
+        <h1 class="card-title text-center ">Book details</h1>
+    </div>      
+    <div class="section-book-css">
+                <div class="d-flex flex-row">
+                 
                     <div>
                         <img src={{bookDetails.image}} alt="" srcset="">
                     </div>
@@ -48,11 +52,14 @@
                             </div>
                         </div>
                     </div>
+                </div>
+
+                    <div>
+                        Description:
+                        <br>
+                        {{bookDetails.desc}}
+                    </div>
         </div>  
-        <div>
-            Description:
-            <br>
-            {{bookDetails.desc}}
-        </div>
+
 
 </div>
