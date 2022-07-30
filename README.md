@@ -1,7 +1,7 @@
 # BookStore
 
 ## Descrição: 
- Esse projeto foi construído todo em Inglês, o que permite uma boa compatibilidade para a tradução oferecida pelos próprios navegadores e foi baseado na "api.itbook.store" que fornece as informações para livros da área de TI na lingua inglesa.
+ Esse projeto foi construído todo em Inglês, o que permite uma boa compatibilidade para a tradução oferecida pelos próprios navegadores e foi baseado na "api.itbook.store" que fornece as informações para livros da área de TI na língua inglesa.
  
  O site está publicado no seguinte link:
  https://andersonf5.github.io/bookStore-Angular/
@@ -9,8 +9,8 @@
  Permite ao usuário:
  - baixar o livro real quando disponível;
  - Pesquisar livros por título, autor, ISBN ou palavras-chave;
- - Vizualizar os detalhes do livro;
- - Ser redirecionado para vizualizar trecho dos livros e mais informações;
+ - Visualizar os detalhes do livro;
+ - Ser redirecionado para visualizar trecho dos livros e mais informações;
  - Ser redirecionado para o site oficial para de fato comprar o livro desejado;
   
   Foram aplicados os conceitos aprendidos durante o curso e também foram incluídos conceitos adicionais de outras fontes.
