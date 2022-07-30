@@ -8,6 +8,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { MainComponent } from './pages/main/main.component';
 import { BooksDetailsComponent } from './pages/books-details/books-details.component';
 import { SearchComponent } from './components/search/search.component';
+import { FormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -18,11 +19,13 @@ import { SearchComponent } from './components/search/search.component';
     BooksDetailsComponent,
     SearchComponent,
     
+    
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
+    FormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

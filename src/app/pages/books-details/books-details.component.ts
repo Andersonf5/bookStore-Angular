@@ -1,7 +1,8 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 import { Bookdetails } from 'src/app/models/bookdetails';
 import { BookService } from 'src/app/service/book.service';
 import { ActivatedRoute, Router } from '@angular/router';
+
 
 @Component({
   selector: 'app-books-details',
@@ -29,35 +30,38 @@ bookDetails:Bookdetails={
 };
 
 routerIsbn13:number = 0;
-
+lastUrl:string ="";
 
   constructor(private bookService:BookService,
-    private actRoute: ActivatedRoute,
-    private router: Router) { }
+              private actRoute: ActivatedRoute,) {
+      
+     }
+
+
 
   ngOnInit(): void {
     this.actRoute.paramMap.subscribe(params =>{
       this.routerIsbn13 = Number(params.get('isbn13'));
-      console.log(this.routerIsbn13);
-      /* if(this.userId !== null){
-        this.userService.getUser(this.userId).subscribe(result =>{
-          this.userForm.patchValue({
-            id: result[0].id,
-            nome:result[0].nome,
-            sobrenome:result[0].sobrenome,
-            idade:result[0].idade,
-            profissao:result[0].profissao
-          })*/
+     // console.log(this.routerIsbn13);
         }) ;
-
+         
         this.getBooksDetailsLocal(this.routerIsbn13);
+
+        this.actRoute.queryParams.subscribe(params =>{
+          this.lastUrl = params['lastUrl'];
+         // console.log(this.lastUrl[0])
+            return this.lastUrl[0];
+        })
+        
       }
  
 
   getBooksDetailsLocal(isbn13:number){
     this.bookService.getBookDetails(isbn13).subscribe(booksDetailsFromServer =>{
       this.bookDetails=booksDetailsFromServer;
-      console.log(this.bookDetails);
+      //console.log(this.bookDetails);
     })
   }
+
+
 }

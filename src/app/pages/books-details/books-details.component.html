@@ -23,7 +23,7 @@
                                             <td>{{bookDetails.publisher}}</td>
                                         </tr>
                                         <tr> 
-                                            <td>Published:</td>
+                                            <td>Published (Year):</td>
                                             <td>{{bookDetails.year}}</td>
                                         </tr>
                                         <tr> 
@@ -44,9 +44,10 @@
                                 </table>
                                 <div class="d-flex justify-content-around">
                                             
-                                    <button class="btn btn-secondary" routerLink="">Voltar</button> <!-- [routerLink]="['/form',user.id]" routerlink passado como array para conter parametros -->
+                                    <button class="btn btn-secondary" [routerLink]="lastUrl">Back</button> <!-- [routerLink]="['/form',user.id]" routerlink passado como array para conter parametros -->
                             
-                                    <button class="btn btn-success" >Comprar</button> <!-- (click)="deleteUser(user.id)" -->
+                                    <button class="btn btn-success" >
+                                        <a href="{{bookDetails.url}}" style="text-decoration:none ; color: white;">Redirect to more opitions / buy</a></button> <!-- (click)="deleteUser(user.id)" -->
                             
                                 </div>
                             </div>
