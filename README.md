@@ -8,8 +8,10 @@
  
  Permite ao usuário:
  - baixar o livro real quando disponível;
- - Ser redirecionado para vizualizar trecho dos livros e mais informações
- - Ser redirecionado para o site oficial para de fato comprar o livro desejado.
+ - Pesquisar livros por título, autor, ISBN ou palavras-chave;
+ - Vizualizar os detalhes do livro;
+ - Ser redirecionado para vizualizar trecho dos livros e mais informações;
+ - Ser redirecionado para o site oficial para de fato comprar o livro desejado;
   
   Foram aplicados os conceitos aprendidos durante o curso e também foram incluídos conceitos adicionais de outras fontes.
   Essa é a aparência do site 👇:
@@ -25,8 +27,10 @@ The website is published at the following link:
  
  Allows the user to:
  - download the actual book when available;
- - Be redirected to view excerpts from the books and more information
- - Be redirected to the official website to actually buy the desired book.
+ - Search books by title, author, ISBN or keywords;
+ - Visualize the details of the book;
+ - Be redirected to view excerpts from the books and more information;
+ - Be redirected to the official website to actually buy the desired book;
   
   Concepts learned during the course were applied and additional concepts from other sources were also included.
   This is what the website looks like 👇:
