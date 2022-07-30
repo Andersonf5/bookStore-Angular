@@ -9,7 +9,7 @@
  Permite ao usuário:
  - baixar o livro real quando disponível;
  - Ser redirecionado para vizualizar trecho dos livros e mais informações
- - Ser redirecinado para o site oficial para de fato comprar o livro desejado.
+ - Ser redirecionado para o site oficial para de fato comprar o livro desejado.
   
   Foram aplicados os conceitos aprendidos durante o curso e também foram incluídos conceitos adicionais de outras fontes.
   Essa é a aparência do site 👇:
