@@ -59,7 +59,7 @@ lastUrl:string ="";
   getBooksDetailsLocal(isbn13:number){
     this.bookService.getBookDetails(isbn13).subscribe(booksDetailsFromServer =>{
       this.bookDetails=booksDetailsFromServer;
-      //console.log(this.bookDetails);
+      console.log(this.bookDetails);
     })
   }
 
