@@ -2,13 +2,24 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 80%;
+    align-items: center;
 }
 
 .table-td-description-css{
-    width: 150px;
+    width: 20%;
 }
 
 .table-td-content-css{
-    width: 700px;
+    width: 100%;
 }
+
+.description_css{
+    padding: 2rem;
+    max-width: 100%;
+}
+
+.with_css{
+    
+    width: 50vw;
+}
+

@@ -1,0 +1,9 @@
+.css_search_Width{
+    min-width:30vw;
+    max-width: 70vw;
+
+}
+
+@media (max-width: 1250px) {.css_search_Width {
+font-size: 12px;
+}}

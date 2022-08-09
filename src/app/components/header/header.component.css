@@ -1,0 +1,12 @@
+.css_container {  
+    display: flex;
+    flex-wrap: none;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+
+@media (max-width: 1200px){
+  .container {
+
+}}
